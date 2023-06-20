@@ -26,6 +26,7 @@ const NoImagesMessage = styled.p`
 `;
 
 const YouAskedMessage = styled.h2`
+  text-align: center;  
   color: #ff7f00;
 `;
 

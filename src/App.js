@@ -7,16 +7,28 @@ import styled from 'styled-components';
 const AppContainer = styled.div`
   background-color: black;
   color: white;
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
 `;
 
 const Heading = styled.h1`
   color: #ff7f00;
+  text-align: center;
+`;
+
+const SearchContainer = styled.div`
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 `;
 
 const MessageContainer = styled.div`
-  margin-top: 2rem;
+  text-align: center;
+  margin-top: 1rem;
 `;
 
 const Message = styled.p`

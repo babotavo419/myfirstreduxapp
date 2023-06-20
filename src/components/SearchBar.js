@@ -48,7 +48,7 @@ const SearchBar = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Enter search query"
+        placeholder="Enter If You Dare"
       />
       <SearchButton onClick={handleSearch}>Search</SearchButton>
     </SearchBarContainer>
