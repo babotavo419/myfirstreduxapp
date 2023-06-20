@@ -49,7 +49,7 @@ const DataDisplay = () => {
 
   return (
     <div>
-      <YouAskedMessage>You asked for it</YouAskedMessage>
+      <YouAskedMessage>You Asked For It</YouAskedMessage>
       <DataDisplayContainer>
         {images.map((image) => (
           <ImageContainer key={image.id}>
