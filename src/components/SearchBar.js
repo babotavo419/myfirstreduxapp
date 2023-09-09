@@ -49,7 +49,7 @@ const SearchBar = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Enter If You Dare"
+        placeholder="Powered By GIPHY"
       />
       <SearchButton onClick={handleSearch}>Search</SearchButton>
     </SearchBarContainer>
