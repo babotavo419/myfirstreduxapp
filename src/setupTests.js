@@ -1,4 +1,4 @@
-import React from 'react';
+import react from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
@@ -19,4 +19,3 @@ describe('App', () => {
     expect(messageElement).toBeNull();
   });
 });
-;
