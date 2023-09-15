@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
+    "build": "webpack --mode production",
     "test": "cross-env NODE_ENV=testing jest --verbose --forceExit"
   },
   "devDependencies": {
@@ -36,6 +37,7 @@
     "cors": "2.8.5",
     "css-loader": "^6.5.1",
     "express": "4.17.1",
+    "firebase": "^10.3.1",
     "jest-dom": "4.0.0",
     "moment": "2.29.1",
     "mutationobserver-shim": "0.3.7",
